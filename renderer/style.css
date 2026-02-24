@@ -1,0 +1,140 @@
+/* --- background --- */
+body { 
+    font-family: 'Segoe UI', Arial; 
+    background: #f0f4f8; 
+    padding: 20px; 
+    color: #333; 
+}
+
+/* --- Main Desktop  */
+.container { 
+    background: white; 
+    padding: 25px; 
+    border-radius: 12px; 
+    max-width: 550px; 
+    margin: auto; 
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1); 
+}
+
+/* Header Styling*/
+h1 { 
+    text-align: center; 
+    color: #2c3e50; 
+    margin: 0 0 10px 0; 
+}
+
+/*  Logo Positioning and Size Constraint */
+.logo-area { 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+#appLogo { 
+    max-width: 100px; 
+    height: auto;  
+}
+
+/* Styling for Select and User Notes  */
+.card { 
+    background: #f8f9fa; 
+    padding: 15px; 
+    border-radius: 8px; 
+    border: 1px solid #dee2e6; 
+    margin-bottom: 15px; 
+}
+
+label { 
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #495057; 
+}
+
+select, input { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 8px 0; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 15px; 
+}
+
+/* CRUD and Navigation Styles */
+.btn-group { 
+    display: flex; 
+    gap: 8px; 
+}
+
+button { 
+    flex: 1; 
+    padding: 12px; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 14px; 
+    transition: 0.2s; 
+}
+
+/* Color Coding for User Feedback */
+.btn-primary { background: #28a745; }
+.btn-secondary { background: #007bff; }
+.btn-edit { background: #ffc107; color: #212529; }
+.btn-del { background: #dc3545; }
+.btn-nav { width: 100%; background: #6c757d; margin-top: 15px; }
+
+/*  ETA Result Display */
+.result-display { 
+    margin-top: 15px; 
+    padding: 15px; 
+    border-radius: 8px; 
+    background: #e9ecef; 
+}
+
+/* Prediction Card Layout for Next and Following vehicles */
+.bus-info { 
+    padding: 10px; 
+    border-radius: 6px; 
+    margin-bottom: 10px; 
+    border-left: 5px solid; 
+}
+
+/* Visual Distinction for the immediate Next bus */
+.next { 
+    background: #d4edda; 
+    border-color: #28a745; 
+    color: #155724; 
+}
+
+/* Visual Distinction for the Upcoming (Following) bus */
+.upcoming { 
+    background: #fff3cd; 
+    border-color: #ffc107; 
+    color: #856404; 
+}
+
+.bus-info h4 { 
+    margin: 0; 
+    font-size: 16px; 
+}
+
+.bus-info p { 
+    margin: 5px 0 0 0; 
+    font-size: 15px; 
+}
+
+/*  CRUD Read/Update/Delete Layout */
+.fav-item { 
+    background: #fff; 
+    border: 1px solid #dee2e6; 
+    padding: 15px; 
+    margin-bottom: 10px; 
+    border-radius: 8px; 
+}
+
+.fav-header { 
+    margin-bottom: 8px; 
+    font-size: 15px; 
+    color: #212529; 
+}

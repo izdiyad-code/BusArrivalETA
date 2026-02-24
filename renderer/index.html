@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus ETA App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bus Arrival Prediction</h1>
+        <div class="logo-area"><img src="logo.png" id="appLogo"></div>
+
+        <div class="card">
+            <h1> Kolej Profesional Mara Hongkong </h1>
+            <label>Select Bus Stop:</label>
+            <select id="stopSelect"></select>
+            
+            <label>Add a Note (Optional):</label>
+            <input type="text" id="userNote" placeholder="e.g. Near my office">
+            
+            <div class="btn-group">
+                <button onclick="checkETA()" class="btn-primary">Check ETA</button>
+                <button onclick="addStop()" class="btn-secondary">Add Favourite</button>
+            </div>
+        </div>
+
+        <div id="display" class="result-display">
+            <p>Select a stop to see prediction.</p>
+        </div>
+
+        <button onclick="openFavourites()" class="btn-nav">View Favourites</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
